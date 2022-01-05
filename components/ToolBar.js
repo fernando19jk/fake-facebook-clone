@@ -11,7 +11,7 @@ const Row = styled.View`
 flex-direction: row;
 background: #FFFFFF; 
 width: 100%;
-padding: 11px;
+padding:0 11px;
 align-items: center;
 `
 
@@ -47,7 +47,7 @@ font-size: 12px;
 const Separator = styled.View`
 width: 1px; 
 height: 26px;
-background: #FOFOFO;
+background: #F0F0F0;
 `
 const ToolBar = ()=>{ 
     return (
@@ -59,7 +59,7 @@ const ToolBar = ()=>{
      <Divider />
      <Row> 
     <Menu>
-    <Material Community Icons name="video-account" size={20} color="#F44337" />
+    <MaterialCommunityIcons name="video-account" size={20} color="#F44337" />
     <MenuText>Directo</MenuText>
      </Menu>
      <Separator />
