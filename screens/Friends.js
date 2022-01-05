@@ -4,20 +4,17 @@ import {Text} from 'react-native'
 // import ToolBar from '../components/ToolBar'
 // import MainSeparator from '../components/MainSepartor'
 // import Users from '../components/User'
-
+import Chat from '../components/Chat'
 
 const View = styled.View`
-align-items: center;
-height: 500px;
+flex:1;
 `
 const Friends = () => { 
     return (
-    <View>
-        {/* <ToolBar/>
-        <MainSeparator/>
-        <Users/> */}
-        <Text>SADAS</Text>
-    </View>
+ 
+
+        <Chat/>
+   
     )
 }
 export default Friends;

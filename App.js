@@ -11,7 +11,9 @@ import Notifications from './screens/Notifications';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import {MaterialCommunityIcons} from '@expo/vector-icons'
+import { LogBox } from "react-native"
 
+LogBox.ignoreAllLogs(true)
 
 export default function App() {
   const Tab=createMaterialTopTabNavigator()

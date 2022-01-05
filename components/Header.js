@@ -5,7 +5,7 @@ import styled from 'styled-components/native'
 const Header =()=>{
     return (
         <Container>
-            <Text>Facebook</Text>
+            <Text> Facebook</Text>
                 <Row>
                     <Button>
                         <MaterialCommunityIcons name='magnify' size={26} color='black'/>
