@@ -68,7 +68,7 @@ export default class Chat extends Component{
                     
                     <ListChat
                     first_name={item.name}
-                    message={item.email}
+                    message={"1 mutual friend"}
                     image={item.image}
                     date={item.state==true ? "🟢":"🔴"}
                     //time={item.time}

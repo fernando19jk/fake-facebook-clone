@@ -211,7 +211,7 @@ const Story=()=>{
                 scrollEventThrottle={5}
                 onScroll={Animated.event([
                     {
-                        nativeEvent:{contextOffset:{x:Animations.scroll_x} }
+                        nativeEvent:{contentOffset:{x:Animations.scroll_x} }
                     }
                 ])}
             >
