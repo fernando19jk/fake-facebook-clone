@@ -14,7 +14,7 @@ export default class Chat extends Component{
     }
     componentDidMount()
     {
-    axios.get('https://delta-staging.herokuapp.com/')
+    axios.get('https://my-daw2-app-server-production.herokuapp.com/')
     .then((response) =>{
         //spinner de espera mientras carga 
         this.setState({ spinner: true });
